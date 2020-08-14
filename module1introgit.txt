@@ -1,0 +1,49 @@
+
+	MODULE 1 :
+
+sudo apt update
+
+sudo apt install git
+
+git --version
+
+mkdir my-git-repo
+
+cd my-git-repo
+
+git init
+
+
+git config --global user.name "Cristian Yamamoto"
+
+git config --global user.email "yamamotocristian@gmail.com"
+
+
+nano README
+This is my first repository.
+
+ ctrl+o -> enter key -> ctrl+x
+
+git status
+
+git add README
+
+git commit
+This is my first commit!
+
+ctrl+o -> enter key -> ctrl+x
+
+nano README
+A repository is a location where all the files of a particular project are stored.
+
+git status
+
+git diff README
+
+git add README
+
+git status
+
+git commit -m "This is my second commit."
+
+git log
