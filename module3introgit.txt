@@ -1,0 +1,25 @@
+INTRODUCTION TO GITHUB:
+
+git clone URL	Git clone is used to clone a remote repository into a local workspace
+git push	Git push is used to push commits from your local repo to a remote repo
+git pull	Git pull is used to fetch the newest updates from a remote repository
+
+git config --global credential.helper      Allow automated login to GitHub
+
+USING A REMOTE REPOSITORY:
+
+git remote 	Lists remote repos
+git remote -v	List remote repos verbosely
+git remote show <name>	Describes a single remote repo
+git remote update	Fetches the most up-to-date objects
+git fetch	Downloads specific objects
+git branch -r	Lists remote branches; can be combined with other branch arguments to manage remote branche
+
+SOLVING CONFLICTS:
+
+Merge conflicts are not uncommon when working in a team of developers, or on Open Source Software. 
+Fortunately, GitHub has some good documentation on how to handle them when they happen:
+
+https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-merge-conflicts
+https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/resolving-a-merge-conflict-using-the-command-line
+You can also use git rebase branchname to change the base of the current branch to be branchname
